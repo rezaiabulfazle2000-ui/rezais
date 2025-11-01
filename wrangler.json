@@ -1,0 +1,23 @@
+{
+  "compatibility_date": "2025-10-08",
+  "main": "src/index.ts",
+  "name": "rezais",
+  "upload_source_maps": true,
+  "kv_namespaces": [
+    {
+      "binding": "AUTH_STORAGE",
+      "id": "2a11db769d074b45841ca323de0b90b4"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "AUTH_DB",
+      "database_name": "openauth-template-auth-db",
+      "database_id": "18e1aaa7-60db-4ac6-a923-f577cebfd247"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "compatibility_flags": ["nodejs_compat"]
+}
